@@ -26,9 +26,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/album_name"
         android:layout_marginLeft="17dp"
-        android:layout_marginTop="12dp"
         android:maxLength="50"
         android:singleLine="true"
         android:layout_toRightOf="@+id/image"
         android:text="This is Description" />
+
+    <TextView
+        android:id="@+id/songs_number"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/album_description"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/image"
+        android:text="Number of Songs" />
+
 </RelativeLayout>
